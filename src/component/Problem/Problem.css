@@ -1,0 +1,120 @@
+.problem{
+    padding-top: 12rem;
+}
+.problem_rap{
+    padding:1rem 6rem;
+}
+.problem_heading {
+    
+        color: #030303;
+        font-family: 'Gothic A1', sans-serif;
+        font-weight: 700;
+        letter-spacing: 3px;
+        line-height: 65px;
+        margin-bottom: 6rem;
+}
+
+.problem_heading span {
+    color: #F78A8A;
+}
+
+.problem_content1{
+    color: #030303;
+    font-size: 23px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px; 
+    line-height: 55px;
+}
+.problem1_img{
+    margin-top: -4rem;
+}
+.problem2_img{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.problem2_img img {
+    width: 30%;
+}
+@media only screen and (max-width: 1200px) {
+
+    .problem_rap{
+        padding:1rem !important;
+    }
+    .problem_content1{
+        
+        font-size: 23px;
+        
+        letter-spacing: 1px;
+        line-height: 55px;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .problem_rap{
+        padding:2rem !important;
+    }
+    .problem_content1{
+        
+        font-size: 23px;
+        
+        letter-spacing: 1px;
+        line-height: 55px;
+    }
+    .problem1_img{
+        margin-top: 4rem;
+        width: 80%;
+    }
+    .problem2_img{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: end;
+    }
+    .problem2_img img {
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+
+    .problem_rap{
+        padding:2rem !important;
+    }
+    .problem_content1{
+        
+        font-size: 18px;
+        
+        letter-spacing: 1px;
+        line-height: 55px;
+    }
+    .problem1_img{
+        margin-top: 4rem;
+        width: 80%;
+    }
+    .problem2_img{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: end;
+    }
+    .problem2_img img {
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    .problem_rap{
+        padding:1rem !important;
+    }
+    .problem_content1{
+        
+        font-size: 16px;
+        
+        letter-spacing: 1px;
+        
+    }
+  }
+
+

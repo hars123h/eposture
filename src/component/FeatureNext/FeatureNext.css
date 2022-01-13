@@ -1,0 +1,137 @@
+.feature_next{
+    margin-top: 50rem;
+    padding-top: 7rem;
+    /* margin-bottom: 25rem; */
+
+}
+.feature_next_rap{
+    padding:1rem 8rem;
+}
+.feature_next_heading{
+    color: #030303;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 23px !important;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 8rem;
+    margin-left: 3.5rem;
+   
+}
+.feature_next_logo {
+    width: 12% !important;
+}
+.feature_next_left_content p {
+    color: #030303;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 23px !important;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 60px;
+}
+.feature_next_right_content{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: -37rem;
+}
+.feature_next_right_content img {
+    width : 25%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .feature_next_heading{
+       
+        font-size: 21px !important;
+        letter-spacing: 3px;
+        margin-left: 2rem;
+    }
+    .feature_next_right_content{
+        margin-top: -45rem;
+    }
+    .feature_next_right_content img {
+        width : 30%;
+    }
+    .feature_next_left_content p {
+       
+        font-size: 21px !important;
+        
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .feature_next_heading{
+       
+        font-size: 17px !important;
+        letter-spacing: 2px;
+        margin-left: 0;
+    }
+    .feature_next_rap{
+        padding:1rem 1rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    .feature_next_heading{
+       
+        font-size: 17px !important;
+        letter-spacing: 2px;
+        margin-left: 0;
+        line-height: 50px;
+    }
+    .feature_next_rap{
+        padding:1rem 0.1rem;
+    }
+    .feature_next_left_content p {
+        font-size: 16px !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 550px) {
+    .feature_next_right_content{
+        display: flex;
+        justify-content: start;
+        margin-top: 1rem;
+    }
+
+  } 
+
+  @media only screen and (max-width: 400px) {
+    .feature_next_right_content img {
+        width : 55%;
+    }
+    .feature_next_left_content p {
+       
+        font-size: 16px !important;
+    }
+  }
+  .bubbles{
+      display: flex;
+      margin-top: 10rem;
+      padding-top: 20rem;
+      justify-content: space-evenly;
+
+  }
+  .vSmall_bubble{
+      margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #C1DCF7;
+    border-radius: 50%;
+}
+  
+
+  .small_bubble{
+      margin-top: 5px;
+      height: 30px;
+      width: 30px;
+      background-color: #C1DCF7;
+      border-radius: 50%;
+  }
+  .large_bubble{
+    height: 40px;
+    width: 40px;
+    background-color: #C1DCF7;
+    border-radius: 50%;
+  }
